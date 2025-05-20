@@ -1,0 +1,543 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b4f1f37e-a40e-4754-9526-3b5057cd37da")
+	(paper "A4")
+	(lib_symbols)
+	(bus_alias "CAN"
+		(members "TX" "RX" "EN")
+	)
+	(bus_alias "GPIO"
+		(members "IO00/CSI1_CTRL1" "IO01/CSI1_CTRL2" "IO02/PMIC_WDOG" "IO03/CSI1_CTRL3"
+			"IO04/PMIC_SD_VSEL" "IO05/CSI1_CTRL4" "IO06/CSI2_CTRL1" "IO07/CSI2_CTRL2"
+			"IO08/PCIe_nPERST" "IO09/LVDS1REG_EN" "IO10/PCIe_nWAKE" "IO11/PCIe_nCLKREQ"
+			"IO12/USB1_OTG_PWR" "IO13/USB1_OTG_OC" "IO14/PCIe_nW_DISABLE" "nETH1_INT/IO15"
+		)
+	)
+	(bus_alias "I2C"
+		(members "SCL" "SDA")
+	)
+	(bus_alias "JTAG"
+		(members "TCK" "TDI" "TDO" "TMS" "MOD")
+	)
+	(bus_alias "LVDS"
+		(members "D0-" "D0+" "D1-" "D1+" "D2-" "D2+" "D3-" "D3+" "CLK-" "CLK+")
+	)
+	(bus_alias "MIPI_CSI"
+		(members "D0-" "D0+" "D1-" "D1+" "D2-" "D2+" "D3-" "D3+" "CLK-" "CLK+")
+	)
+	(bus_alias "MIPI_DSI"
+		(members "D0-" "D0+" "D1-" "D1+" "D2-" "D2+" "D3-" "D3+" "CLK-" "CLK+")
+	)
+	(bus_alias "PCIe"
+		(members "TXN-" "TXN+" "RXN-" "RXN+" "CLK-" "CLK+")
+	)
+	(bus_alias "SDIO4BIT"
+		(members "VDD_SW" "~{CD}" "WP" "CMD" "CLK" "D0" "D1" "D2" "D3")
+	)
+	(bus_alias "SDIO8BIT"
+		(members "RESET" "CMD" "STROBE" "CLK" "D0" "D1" "D2" "D3" "D4" "D5" "D6"
+			"D7"
+		)
+	)
+	(bus_alias "SPI"
+		(members "SS0" "MOSI" "MISO" "SCLK")
+	)
+	(bus_alias "UART"
+		(members "RXD" "TXD")
+	)
+	(bus_alias "USB"
+		(members "D+" "D-" "TX+" "TX-" "RX+" "RX-" "ID" "OC")
+	)
+	(no_connect
+		(at 123.19 67.31)
+		(uuid "28a4519d-5fc3-4717-b822-1738841ec9be")
+	)
+	(no_connect
+		(at 123.19 95.25)
+		(uuid "309e1dff-b60f-4a64-bec9-0ad06c6cd948")
+	)
+	(no_connect
+		(at 123.19 64.77)
+		(uuid "3248f858-b216-4756-9357-ba54f2359869")
+	)
+	(no_connect
+		(at 123.19 107.95)
+		(uuid "6c60341b-0948-455f-912b-e70abb5fbfa0")
+	)
+	(no_connect
+		(at 123.19 85.09)
+		(uuid "7febb8ab-6a0e-41ea-b718-83f609e2a420")
+	)
+	(no_connect
+		(at 123.19 115.57)
+		(uuid "913cfd5e-efd1-410f-be13-733ad955522c")
+	)
+	(no_connect
+		(at 123.19 77.47)
+		(uuid "a3e6ef05-f8f6-40ba-ba2a-10e7e2c2b91f")
+	)
+	(no_connect
+		(at 123.19 57.15)
+		(uuid "c44c735f-3d2b-4df6-acf3-262fa26ccb41")
+	)
+	(no_connect
+		(at 123.19 74.93)
+		(uuid "c590d3ba-ba62-4b07-aa23-360265ef78c6")
+	)
+	(no_connect
+		(at 123.19 123.19)
+		(uuid "c70f304b-bd4d-40e5-a64f-78648f7157be")
+	)
+	(no_connect
+		(at 123.19 87.63)
+		(uuid "cfb705c1-bea5-47bc-a156-eda7390ab804")
+	)
+	(no_connect
+		(at 123.19 118.11)
+		(uuid "d26b973f-73c4-4119-aa22-a4f9902c9f7d")
+	)
+	(no_connect
+		(at 123.19 82.55)
+		(uuid "e6391e21-7762-4eb7-8df3-fbc3f562a62f")
+	)
+	(no_connect
+		(at 123.19 92.71)
+		(uuid "e6c2da78-1d01-4462-9651-822c82e35684")
+	)
+	(no_connect
+		(at 123.19 120.65)
+		(uuid "e8841c12-0e1b-4aac-af81-63a3fa898f63")
+	)
+	(wire
+		(pts
+			(xy 137.16 80.01) (xy 128.27 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d4aa34-3a92-4597-8c64-b1c71498a136")
+	)
+	(bus
+		(pts
+			(xy 123.19 102.87) (xy 137.16 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d56fab4-04b5-4f86-b1f8-c2a3138b12de")
+	)
+	(bus
+		(pts
+			(xy 137.16 82.55) (xy 127 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cecf3cf-af3f-4485-b3f7-daef9114a3e1")
+	)
+	(wire
+		(pts
+			(xy 128.27 59.69) (xy 123.19 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4efdeb7c-c691-4a70-b2ec-14cb95edbd7a")
+	)
+	(bus
+		(pts
+			(xy 123.19 110.49) (xy 137.16 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df0f39f-5d97-4cef-a315-3271f7c444dc")
+	)
+	(bus
+		(pts
+			(xy 127 72.39) (xy 127 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f8e6cec-5496-4960-a7b2-26cac5e977f0")
+	)
+	(wire
+		(pts
+			(xy 128.27 80.01) (xy 128.27 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d218ba08-9302-4bd1-8243-9d2fea49258b")
+	)
+	(bus
+		(pts
+			(xy 123.19 72.39) (xy 127 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6f03b6f-18c3-4a9f-9cd0-759a74111896")
+	)
+	(wire
+		(pts
+			(xy 123.19 100.33) (xy 137.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f867decc-3008-4c44-a268-622442aca437")
+	)
+	(sheet
+		(at 99.06 54.61)
+		(size 24.13 71.755)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "45ac03a1-2fa7-4648-8a29-efec8399af67")
+		(property "Sheetname" "connector"
+			(at 99.06 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector.kicad_sch"
+			(at 99.06 126.9496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SD2{SDIO4BIT}" bidirectional
+			(at 123.19 123.19 0)
+			(uuid "de8c75e4-721d-4d66-a640-8e2eee804552")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN1{CAN}" bidirectional
+			(at 123.19 67.31 0)
+			(uuid "76f8ed7c-3d69-41ad-a727-a42156349cc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LVDS0{LVDS}" bidirectional
+			(at 123.19 118.11 0)
+			(uuid "3b85d9e2-a22b-437f-b965-3e66689e7a04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ECSPI2{SPI}" bidirectional
+			(at 123.19 95.25 0)
+			(uuid "2a7b5838-e073-409b-824a-fd2ab3217304")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ECSPI1{SPI}" bidirectional
+			(at 123.19 92.71 0)
+			(uuid "1f0fc1ee-97ef-4a3c-84f5-4ecf94c34bad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD1{SDIO8BIT}" bidirectional
+			(at 123.19 120.65 0)
+			(uuid "7d9742c2-c233-4b19-b836-7ba8acc02f2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PWR_READY}" output
+			(at 123.19 57.15 0)
+			(uuid "31eaa618-d455-48ac-997d-ac7657cc611e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIe{PCIe}" bidirectional
+			(at 123.19 115.57 0)
+			(uuid "43b20e57-9e06-4f75-bd38-6a20d404e55c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C4{I2C}" bidirectional
+			(at 123.19 77.47 0)
+			(uuid "fd4560fd-2557-4471-b7d6-37971475a6c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO1{GPIO}" bidirectional
+			(at 123.19 64.77 0)
+			(uuid "d4adf1f2-bf8c-4f88-a8cb-e3c0edfcd82c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{EXT_RST}" output
+			(at 123.19 59.69 0)
+			(uuid "af5fdc74-40ed-4990-8f1c-dbc0f812b747")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART2{UART}" bidirectional
+			(at 123.19 85.09 0)
+			(uuid "bab05c38-69cb-4085-83bd-36d87cc65b0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C3{I2C}" bidirectional
+			(at 123.19 74.93 0)
+			(uuid "6f2c7ba4-2121-4c82-b06f-64a555728a43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2{I2C}" bidirectional
+			(at 123.19 72.39 0)
+			(uuid "3c44002d-65bd-4736-a6a4-87bd007f44c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART3{UART}" bidirectional
+			(at 123.19 87.63 0)
+			(uuid "e60785a1-929f-4afe-a49d-0b5010454ce5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_M7{UART}" bidirectional
+			(at 123.19 82.55 0)
+			(uuid "ffb246fd-3246-4456-954a-f0789cb260fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_UP{USB}" bidirectional
+			(at 123.19 102.87 0)
+			(uuid "8f2e5008-4a61-4a8b-bb44-173fe5e90f19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DOWN_VBUS" input
+			(at 123.19 107.95 0)
+			(uuid "1a6e4f8d-7c8c-4465-ad69-f63857734c1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DOWN{USB}" bidirectional
+			(at 123.19 110.49 0)
+			(uuid "4a0d84c3-daf8-49e8-aaa6-f4c289d5d13b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_UP_VBUS" input
+			(at 123.19 100.33 0)
+			(uuid "01f29872-5555-44ff-8f17-e384ce62adee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "usb-extension"
+				(path "/b4f1f37e-a40e-4754-9526-3b5057cd37da"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 76.835)
+		(size 26.67 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d033926f-d41e-4c3c-9da1-1bdf2be8827f")
+		(property "Sheetname" "usb-hub"
+			(at 137.16 76.1234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb-hub.kicad_sch"
+			(at 137.16 114.2496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_UP_VBUS" input
+			(at 137.16 100.33 180)
+			(uuid "8d9e52d0-9b88-4cb1-8a98-7759128b207f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_UP{USB}" bidirectional
+			(at 137.16 102.87 180)
+			(uuid "a2c67390-84b6-472f-84e8-cd1fbd04c13d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{EXT_RST}" input
+			(at 137.16 80.01 180)
+			(uuid "e0977e52-780e-4702-91d5-5df758a6ce79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DOWN{USB}" bidirectional
+			(at 137.16 110.49 180)
+			(uuid "90462160-b149-42b6-9b85-03224970ce89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C{I2C}" bidirectional
+			(at 137.16 82.55 180)
+			(uuid "05f6fa4b-8c10-4381-83e2-79c96a156bc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "usb-extension"
+				(path "/b4f1f37e-a40e-4754-9526-3b5057cd37da"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

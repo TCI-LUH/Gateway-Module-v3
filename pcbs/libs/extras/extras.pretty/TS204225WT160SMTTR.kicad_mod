@@ -1,0 +1,247 @@
+(footprint "TS204225WT160SMTTR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TS20-42-25-WT-160-SMT-TR-1")
+	(tags "Switch")
+	(property "Reference" "S**"
+		(at 4.7 0 0)
+		(layer "F.SilkS")
+		(uuid "8d90de80-0d7c-4c89-ab49-f5c95a0c09db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TS204225WT160SMTTR"
+		(at 0 3.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4ae59136-51ac-40f2-9da9-58815049aab6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da159f45-a997-43f7-9139-16a0ff63caa2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5dfe429-816c-4d3e-9506-da204cf39fcf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65c72e77-fee0-443f-84f4-4bd902802952")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.2 -1.075)
+		(end -3.2 -1.075)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63494f28-6e8a-41d8-8d07-1e1de8991c3f")
+	)
+	(fp_line
+		(start -3.1 -1.075)
+		(end -3.1 -1.075)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ec12f66-9571-414f-86b9-4d3625afcfd8")
+	)
+	(fp_line
+		(start -2.1 -0.4)
+		(end -2.1 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e13f764c-324a-415e-9471-cd9bc12f17ea")
+	)
+	(fp_line
+		(start -1.2 1.6)
+		(end 1.2 1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26f51c99-fb08-4e7c-afab-bd9c3b1f7c81")
+	)
+	(fp_line
+		(start 1.2 -1.6)
+		(end -1.2 -1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bcae1741-ed57-4899-bc8d-bcbbc94a14ef")
+	)
+	(fp_line
+		(start 2.1 0.4)
+		(end 2.1 -0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c35e72ac-a50e-4f8c-ab63-5c7a592cadbd")
+	)
+	(fp_arc
+		(start -3.2 -1.075)
+		(mid -3.15 -1.125)
+		(end -3.1 -1.075)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ca92db0-8c3e-48c9-9ca9-eef4ce9e6963")
+	)
+	(fp_arc
+		(start -3.1 -1.075)
+		(mid -3.15 -1.025)
+		(end -3.2 -1.075)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "03bebd22-aba4-4da8-a332-834d14b6c6e4")
+	)
+	(fp_rect
+		(start -3 -2)
+		(end 3 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "62e54d8e-cdba-4789-9a18-35bb94a08f2c")
+	)
+	(fp_line
+		(start -2.1 -1.6)
+		(end -2.1 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ce1bad4-1a2c-4d3d-a955-86df199aad77")
+	)
+	(fp_line
+		(start -2.1 1.6)
+		(end 2.1 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c8e305d0-3d92-435f-91e3-399082454cd0")
+	)
+	(fp_line
+		(start 2.1 -1.6)
+		(end -2.1 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a5fb94a-6f87-4c2e-9a26-10e4b3fc9cca")
+	)
+	(fp_line
+		(start 2.1 1.6)
+		(end 2.1 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c20ab69a-1721-4cd3-bcaa-a1928a633fda")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.7 0)
+		(layer "F.Fab")
+		(uuid "5cf8a3e9-db50-482f-88b3-b1e834e90417")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.075 -1.075 90)
+		(size 0.65 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7e652ec5-fdd8-42cf-867b-a1994abc3d63")
+	)
+	(pad "2" smd rect
+		(at 2.075 -1.075 90)
+		(size 0.65 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ecfb6b01-1be5-45d8-962b-7cb144882891")
+	)
+	(pad "3" smd rect
+		(at -2.075 1.075 90)
+		(size 0.65 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "780dc544-c5bf-43b0-b21b-8944d3f9f442")
+	)
+	(pad "4" smd rect
+		(at 2.075 1.075 90)
+		(size 0.65 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d84ad103-c795-40f8-83e6-6502fa5bfc04")
+	)
+	(model "${KIPRJMOD}/libs/extras/3d/TS20-42-25-WT-160-SMT-TR.stp"
+		(offset
+			(xyz 0 0 1.580000019)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -180 0)
+		)
+	)
+)

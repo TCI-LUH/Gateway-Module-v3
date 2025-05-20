@@ -1,0 +1,176 @@
+(footprint "ECS1612MV250CNTR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "ECS-1612MV-250-CN-TR-2")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at 2.8 0 0)
+		(layer "F.SilkS")
+		(uuid "ca1b54b4-fb08-4fb4-9f83-91ef10c0c519")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ECS1612MV250CNTR"
+		(at 0.3 3.9 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ebb0d499-9332-43e1-bc12-f26f36f9e220")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "ECS1612MV250CNTR"
+		(at 0.1 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6afa3d67-30a8-492f-8481-5553d2e00232")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fd9b580-e2f6-4d33-989a-a155bda27c43")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0aeae42-0b69-4ba1-9f52-49dbbda97696")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.1 0.8)
+		(end -1 0.8)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "bf6df648-5a05-4f78-840d-ae1ef316a36c")
+	)
+	(fp_rect
+		(start -1.15 -0.95)
+		(end 1.15 0.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "2c67b394-82dd-4291-ac47-bdc0a3a4e638")
+	)
+	(fp_line
+		(start -0.8 -0.6)
+		(end 0.8 -0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ef22819f-e077-44dc-95d4-c30626ae1527")
+	)
+	(fp_line
+		(start -0.8 0.6)
+		(end -0.8 -0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ecd07792-e8d2-406e-98fa-5c603a95dcbb")
+	)
+	(fp_line
+		(start 0.8 -0.6)
+		(end 0.8 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ecf44451-1b2f-4d20-af4a-c12cdfb7214e")
+	)
+	(fp_line
+		(start 0.8 0.6)
+		(end -0.8 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9790be3-7814-4ff8-967a-7605c066b60f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 -2.2 0)
+		(layer "F.Fab")
+		(uuid "7f377fc7-7497-4440-9a69-408a92827bce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.55 0.4 90)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a77398d9-ad71-472d-99cc-88b8e7ce6eba")
+	)
+	(pad "2" smd rect
+		(at 0.55 0.4 90)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "23cf7b36-6cd9-4e6b-907b-9c4703824b75")
+	)
+	(pad "3" smd rect
+		(at 0.55 -0.4 90)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5efd62cd-26f6-4c02-a498-663c51006015")
+	)
+	(pad "4" smd rect
+		(at -0.55 -0.4 90)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e988d3f6-2bed-47a2-91a7-c1955792021f")
+	)
+	(model "ECS-1612MV-250-CN-TR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

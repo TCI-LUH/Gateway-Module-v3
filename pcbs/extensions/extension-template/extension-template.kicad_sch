@@ -1,0 +1,236 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b4f1f37e-a40e-4754-9526-3b5057cd37da")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 33.02 48.26)
+		(size 24.13 61.595)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "45ac03a1-2fa7-4648-8a29-efec8399af67")
+		(property "Sheetname" "connector"
+			(at 33.02 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector.kicad_sch"
+			(at 33.02 110.4396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SD2{SDIO4BIT}" bidirectional
+			(at 57.15 106.68 0)
+			(uuid "de8c75e4-721d-4d66-a640-8e2eee804552")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN1{CAN}" bidirectional
+			(at 57.15 60.96 0)
+			(uuid "76f8ed7c-3d69-41ad-a727-a42156349cc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LVDS0{LVDS}" bidirectional
+			(at 57.15 101.6 0)
+			(uuid "3b85d9e2-a22b-437f-b965-3e66689e7a04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ECSPI2{SPI}" bidirectional
+			(at 57.15 88.9 0)
+			(uuid "2a7b5838-e073-409b-824a-fd2ab3217304")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ECSPI1{SPI}" bidirectional
+			(at 57.15 86.36 0)
+			(uuid "1f0fc1ee-97ef-4a3c-84f5-4ecf94c34bad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD1{SDIO8BIT}" bidirectional
+			(at 57.15 104.14 0)
+			(uuid "7d9742c2-c233-4b19-b836-7ba8acc02f2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PWR_READY}" output
+			(at 57.15 50.8 0)
+			(uuid "31eaa618-d455-48ac-997d-ac7657cc611e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIe{PCIe}" bidirectional
+			(at 57.15 99.06 0)
+			(uuid "43b20e57-9e06-4f75-bd38-6a20d404e55c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C4{I2C}" bidirectional
+			(at 57.15 71.12 0)
+			(uuid "fd4560fd-2557-4471-b7d6-37971475a6c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO1{GPIO}" bidirectional
+			(at 57.15 58.42 0)
+			(uuid "d4adf1f2-bf8c-4f88-a8cb-e3c0edfcd82c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB2{USB}" bidirectional
+			(at 57.15 96.52 0)
+			(uuid "3b3bbe68-ece9-4e0b-949a-42dccbf2701f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{EXT_RST}" input
+			(at 57.15 53.34 0)
+			(uuid "af5fdc74-40ed-4990-8f1c-dbc0f812b747")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB2_VBUS" input
+			(at 57.15 93.98 0)
+			(uuid "4b92ea88-0439-4e06-8b50-822764c3d89e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART2{UART}" bidirectional
+			(at 57.15 78.74 0)
+			(uuid "bab05c38-69cb-4085-83bd-36d87cc65b0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C3{I2C}" bidirectional
+			(at 57.15 68.58 0)
+			(uuid "6f2c7ba4-2121-4c82-b06f-64a555728a43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2{I2C}" bidirectional
+			(at 57.15 66.04 0)
+			(uuid "3c44002d-65bd-4736-a6a4-87bd007f44c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART3{UART}" bidirectional
+			(at 57.15 81.28 0)
+			(uuid "e60785a1-929f-4afe-a49d-0b5010454ce5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_M7{UART}" bidirectional
+			(at 57.15 76.2 0)
+			(uuid "ffb246fd-3246-4456-954a-f0789cb260fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "extension-template"
+				(path "/b4f1f37e-a40e-4754-9526-3b5057cd37da"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,92 @@
+{
+  "steps": [
+    {
+      "identifier": "in-fast",
+      "type": "pumping",
+      "start": "2025-05-08T19:43:54.837034",
+      "end": "2025-05-08T19:45:15.859497",
+      "chanal": 1,
+      "volume": {
+        "value": 10,
+        "unit": "ml"
+      },
+      "rate": {
+        "value": 7.5,
+        "unit": "ml/min"
+      },
+      "direction": "left",
+      "medium": "water"
+    },
+    {
+      "identifier": "out-fast",
+      "type": "pumping",
+      "start": "2025-05-08T19:45:50.897490",
+      "end": "2025-05-08T19:47:11.919273",
+      "chanal": 1,
+      "volume": {
+        "value": 10,
+        "unit": "ml"
+      },
+      "rate": {
+        "value": 7.5,
+        "unit": "ml/min"
+      },
+      "direction": "right",
+      "medium": "water"
+    },
+    {
+      "identifier": "in-slow",
+      "type": "pumping",
+      "start": "2025-05-08T19:49:16.713292",
+      "end": "2025-05-08T19:51:17.736390",
+      "chanal": 1,
+      "volume": {
+        "value": 2,
+        "unit": "ml"
+      },
+      "rate": {
+        "value": 1,
+        "unit": "ml/min"
+      },
+      "direction": "left",
+      "medium": "water"
+    },
+    {
+      "identifier": "out-slow",
+      "type": "pumping",
+      "start": "2025-05-08T19:51:53.373542",
+      "end": "2025-05-08T19:53:54.396624",
+      "chanal": 1,
+      "volume": {
+        "value": 2,
+        "unit": "ml"
+      },
+      "rate": {
+        "value": 1,
+        "unit": "ml/min"
+      },
+      "direction": "right",
+      "medium": "water"
+    }
+  ],
+  "metadata": {
+    "user": "Ferdinand Lange",
+    "start": "2025-05-08T19:43:47.281769",
+    "end": "2025-05-08T19:53:55.780600",
+    "devices": {
+      "pumpe": {
+        "identifier": "REGLO ICC 0016 412",
+        "manufacture": "ismatec"
+      },
+      "pc": {
+        "type": "gateway-module-v3",
+        "identifier": "alpine-box.50-2d-f4-3c-bc-4a",
+        "verdion": 3,
+        "manufacture": "tci"
+      }
+    },
+    "mediums": {
+      "fluid": "water"
+    }
+  }
+}

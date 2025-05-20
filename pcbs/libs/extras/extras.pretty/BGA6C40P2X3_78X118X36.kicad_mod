@@ -1,0 +1,182 @@
+(footprint "BGA6C40P2X3_78X118X36"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Flip Chip6 (0.8x1.2 mm)_2022")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at -0.2 -1.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fd8f771d-f40b-4f63-840b-c48b00ba30de")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "BGA6C40P2X3_78X118X36"
+		(at 1.4 4.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "99621a2f-8ff1-4f9b-ad7a-ab3ef7181623")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a711b92d-28b8-4502-9094-86b57f82a2fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9ae405e-bef5-46e8-9cf7-5158d23a0cfa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6d3a8dd-65fc-4a5f-9e87-9e094a05da14")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.388 -0.588)
+		(end 0.387 -0.588)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61ffddf6-010d-4294-a852-e5905f8a8b38")
+	)
+	(fp_line
+		(start -0.388 0.587)
+		(end -0.388 -0.588)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6f910e6-25e5-44f3-86b4-4eeff1501239")
+	)
+	(fp_line
+		(start 0.387 -0.588)
+		(end 0.387 0.587)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0dbcc6a7-81b4-4af2-a3cb-315406c916ec")
+	)
+	(fp_line
+		(start 0.387 0.587)
+		(end -0.388 0.587)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8b026ed-94f3-4887-ac5f-69d0fedf4023")
+	)
+	(fp_circle
+		(center -0.6 -0.8)
+		(end -0.5 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "64d38ce3-1f4d-44a1-a103-32a3de6872a4")
+	)
+	(fp_rect
+		(start -0.6 -0.8)
+		(end 0.6 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "a0c755d3-7351-45f9-9fc0-dd4819f22cd7")
+	)
+	(pad "A1" smd circle
+		(at -0.2 -0.4 90)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "aa25af9c-df62-46a9-8111-087cdd6f525e")
+	)
+	(pad "A2" smd circle
+		(at 0.2 -0.4 90)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "858fc5b0-35f9-429b-9eae-46385f7816a1")
+	)
+	(pad "B1" smd circle
+		(at -0.2 0 90)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "aaec4016-4e08-4937-965f-8134546da441")
+	)
+	(pad "B2" smd circle
+		(at 0.2 0 90)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7c30a22f-7c8a-4560-904b-b574fcff1312")
+	)
+	(pad "C1" smd circle
+		(at -0.2 0.4 90)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7e77131d-efd2-4bdf-9beb-6eb3058e354f")
+	)
+	(pad "C2" smd circle
+		(at 0.2 0.4 90)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "402adadb-8067-4990-beb4-7012ed982786")
+	)
+	(model "${KIPRJMOD}/gwm-main-board/libs/extras/3d/LD57100J120R.stp"
+		(offset
+			(xyz 0 0 -0.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

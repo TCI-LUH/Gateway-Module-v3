@@ -1,0 +1,363 @@
+{
+    "$id": "http://localhost:5215/demo-gwm-v3/v1",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "steps": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "identifier": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              },
+              "start": {
+                "type": "string"
+              },
+              "end": {
+                "type": "string"
+              },
+              "chanal": {
+                "type": "integer"
+              },
+              "volume": {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": "integer"
+                  },
+                  "unit": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "value",
+                  "unit"
+                ]
+              },
+              "rate": {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": "number"
+                  },
+                  "unit": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "value",
+                  "unit"
+                ]
+              },
+              "direction": {
+                "type": "string"
+              },
+              "medium": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "identifier",
+              "type",
+              "start",
+              "end",
+              "chanal",
+              "volume",
+              "rate",
+              "direction",
+              "medium"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "identifier": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              },
+              "start": {
+                "type": "string"
+              },
+              "end": {
+                "type": "string"
+              },
+              "chanal": {
+                "type": "integer"
+              },
+              "volume": {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": "integer"
+                  },
+                  "unit": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "value",
+                  "unit"
+                ]
+              },
+              "rate": {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": "number"
+                  },
+                  "unit": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "value",
+                  "unit"
+                ]
+              },
+              "direction": {
+                "type": "string"
+              },
+              "medium": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "identifier",
+              "type",
+              "start",
+              "end",
+              "chanal",
+              "volume",
+              "rate",
+              "direction",
+              "medium"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "identifier": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              },
+              "start": {
+                "type": "string"
+              },
+              "end": {
+                "type": "string"
+              },
+              "chanal": {
+                "type": "integer"
+              },
+              "volume": {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": "integer"
+                  },
+                  "unit": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "value",
+                  "unit"
+                ]
+              },
+              "rate": {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": "integer"
+                  },
+                  "unit": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "value",
+                  "unit"
+                ]
+              },
+              "direction": {
+                "type": "string"
+              },
+              "medium": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "identifier",
+              "type",
+              "start",
+              "end",
+              "chanal",
+              "volume",
+              "rate",
+              "direction",
+              "medium"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "identifier": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              },
+              "start": {
+                "type": "string"
+              },
+              "end": {
+                "type": "string"
+              },
+              "chanal": {
+                "type": "integer"
+              },
+              "volume": {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": "integer"
+                  },
+                  "unit": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "value",
+                  "unit"
+                ]
+              },
+              "rate": {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": "integer"
+                  },
+                  "unit": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "value",
+                  "unit"
+                ]
+              },
+              "direction": {
+                "type": "string"
+              },
+              "medium": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "identifier",
+              "type",
+              "start",
+              "end",
+              "chanal",
+              "volume",
+              "rate",
+              "direction",
+              "medium"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "type": "object",
+        "properties": {
+          "user": {
+            "type": "string"
+          },
+          "start": {
+            "type": "string"
+          },
+          "end": {
+            "type": "string"
+          },
+          "devices": {
+            "type": "object",
+            "properties": {
+              "pumpe": {
+                "type": "object",
+                "properties": {
+                  "identifier": {
+                    "type": "string"
+                  },
+                  "manufacture": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "identifier",
+                  "manufacture"
+                ]
+              },
+              "pc": {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "type": "string"
+                  },
+                  "identifier": {
+                    "type": "string"
+                  },
+                  "verdion": {
+                    "type": "integer"
+                  },
+                  "manufacture": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "type",
+                  "identifier",
+                  "verdion",
+                  "manufacture"
+                ]
+              }
+            },
+            "required": [
+              "pumpe",
+              "pc"
+            ]
+          },
+          "mediums": {
+            "type": "object",
+            "properties": {
+              "fluid": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "fluid"
+            ]
+          }
+        },
+        "required": [
+          "user",
+          "start",
+          "end",
+          "devices",
+          "mediums"
+        ]
+      }
+    },
+    "required": [
+      "steps",
+      "metadata"
+    ]
+  }
